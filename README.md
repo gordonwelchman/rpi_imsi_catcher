@@ -59,4 +59,7 @@ Optionally, you can upgrade the Raspberry Pi firmware at this stage:
 ```
 sudo rpi-update
 ```
+Reboot the Raspberry Pi using the command ```reboot```.
+Once the reboot has completed, log in and open the command line interface; elevate to super user.
 ### Install prerequisites and dependancies
+Some packages may already be installed but have been included for completeness. 
