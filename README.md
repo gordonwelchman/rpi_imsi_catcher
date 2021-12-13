@@ -36,3 +36,4 @@ You will require an SDR receiver.
 ### Raspberry Pi Initial Setup
 1. Download the [PiSDR Version 5.0 image](https://github.com/luigifcruz/pisdr-image/releases/tag/v5.0.0) and save it somewhere convenient. [Direct link](https://github.com/luigifcruz/pisdr-image/releases/download/v5.0.0/2020-11-13-PiSDR-vanilla.img.xz).
 2. Flash the image to the SD-card using [Etcher](https://www.balena.io/etcher), [Rufus](https://rufus.ie/), or a Linux/Mac OS equivalent.
+3. Insert the SD-card into the Raspberry Pi, connect a keyboard, mouse, and monitor, then connect power and wait for it to boot.
