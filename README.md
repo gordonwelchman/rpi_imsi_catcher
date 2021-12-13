@@ -19,7 +19,13 @@ One of the better guides can be found at [Paladion.net](https://www.paladion.net
 Please follow the below process for a working simple_IMSI-catcher.py based install on any Raspberry Pi (1, 2, 3, 4), no issues with 32-bit or 64-bit as seen with some other Linux distros e.g. Ubuntu only working on Pi 4, the same with Dragon OS with its Pi64 image.
 
 ## What you will require
-
+You will require a Raspberry Pi and the ability to flash images to the bootable media.
 - A Raspberry Pi, ideally a Pi Zero 2, Pi 4, or Pi CM4.
 - An SD-card, ideally a Class 10 from a reputable brand (SanDisk, Samsung, Lexar, SwissBit).
 - Etcher or Rufus for copying an .ISO to the SD-card.
+
+## SDR Hardware
+You will require an SDR receiver.
+- RTL-SDR from a reputable source e.g.
+- HackRF One.
+- BladeRF.
