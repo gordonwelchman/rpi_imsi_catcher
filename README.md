@@ -60,6 +60,56 @@ Optionally, you can upgrade the Raspberry Pi firmware at this stage:
 sudo rpi-update
 ```
 Reboot the Raspberry Pi using the command ```reboot```.
-Once the reboot has completed, log in and open the command line interface; elevate to super user.
+Once the reboot has completed, log in and open the command line interface and elevate to super user.
 ### Install prerequisites and dependancies
-Some packages may already be installed but have been included for completeness. 
+Some packages may already be installed but have been included for completeness. Enter the following commands (cut, paste) into the super user command line interface:
+```
+sudo apt-get install -y \
+doxygen \
+liblog4cpp5-dev \
+gnuradio \
+gnuradio-dev \
+git \
+cmake \
+autoconf \
+libtool \
+pkg-config \
+g++ \
+gcc \
+make \
+libc6 \
+libc6-dev \
+libcppunit-1.14-0 \
+libcppunit-dev \
+swig \
+doxygen \
+liblog4cpp5v5 \
+liblog4cpp5-dev \
+gr-osmosdr \
+libosmocore \
+libosmocore-dev \
+liborc-0.4-dev \
+rtl-sdr \
+osmo-sdr \
+libosmosdr-dev \
+libboost-all-dev \
+libgmp-dev \
+liborc-dev \
+libboost-regex-dev \
+python3-docutils \
+python-docutils \
+build-essential \
+automake \
+librtlsdr-dev \
+libfftw3-dev \
+gqrx \
+wireshark \
+tshark
+```
+Then run the following ```apt``` commands to install some Python 3 dependancies:
+```
+sudo apt install -y \
+python3-numpy \
+python3-scipy \
+python3-scapy
+```
