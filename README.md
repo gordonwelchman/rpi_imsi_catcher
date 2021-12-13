@@ -46,7 +46,7 @@ Open a terminal using the command Ctrl+Alt+T. Change to super user using the com
 ```
 sudo su
 ```
-Then update PiSDR as follows:
+Then update PiSDR to ensure all packages can be located and downloaded:
 ```
 sudo apt update
 sudo apt-get update
