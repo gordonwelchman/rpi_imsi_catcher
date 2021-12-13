@@ -128,8 +128,7 @@ make -j 4
 sudo make install
 sudo ldconfig
 ```
-The use of ```-j $nproc``` will speed up the build time by allowing for processing in parallel.
-The Python 3 path needs to be updated; use either of the following commands:
+The use of ```-j $nproc``` will speed up the build time by allowing for processing in parallel. The Python 3 path needs to be updated; use either of the following commands:
 ```
 export PYTHONPATH=/usr/local/lib/python3/dist-packages/:$PYTHONPATH
 ```
