@@ -38,4 +38,10 @@ You will require an SDR receiver.
 2. Flash the image to the SD-card using [Etcher](https://www.balena.io/etcher), [Rufus](https://rufus.ie/), or a Linux/Mac OS equivalent.
 3. Insert the SD-card into the Raspberry Pi, connect a keyboard, mouse, and monitor, then connect power and wait for it to boot.
 
-You now have a functional installation of PiSDR Version 5.0, which include GNUradio v3.8 and associated SDR tools.
+You now have a functional installation of PiSDR Version 5.0, which includes GNUradio v3.8 and associated SDR tools.
+
+### Update PiSDR
+'''
+sudo apt update
+sudo apt-get update
+'''
