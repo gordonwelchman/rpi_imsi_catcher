@@ -31,7 +31,6 @@ You will require an SDR receiver.
 - HackRF One.
 - BladeRF.
 
-
 ## Setup
 ### Raspberry Pi Initial Setup
 1. Download the [PiSDR Version 5.0 image](https://github.com/luigifcruz/pisdr-image/releases/tag/v5.0.0) and save it somewhere convenient. [Direct link](https://github.com/luigifcruz/pisdr-image/releases/download/v5.0.0/2020-11-13-PiSDR-vanilla.img.xz).
@@ -61,6 +60,7 @@ sudo rpi-update
 ```
 Reboot the Raspberry Pi using the command ```reboot```.
 Once the reboot has completed, log in and open the command line interface and elevate to super user.
+
 ### Install prerequisites and dependancies
 Some packages may already be installed but have been included for completeness. Enter the following commands (cut, paste) into the super user command line interface:
 ```
@@ -113,4 +113,6 @@ python3-numpy \
 python3-scipy \
 python3-scapy
 ```
-The Raspberry Pi is now ready for the installation of the **gr-gsm** and **simple_IMSI-catcher.py** tools.
+
+### Install gr-gsm
+
