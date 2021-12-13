@@ -127,6 +127,13 @@ mkdir $HOME/.grc_gnuradio/ $HOME/.gnuradio/
 make -j 4
 sudo make install
 sudo ldconfig
+```
+The Python 3 path needs to be updated; use either of the following commands:
+```
+export PYTHONPATH=/usr/local/lib/python3/dist-packages/:$PYTHONPATH
+```
+or
+```
 echo 'export PYTHONPATH=/usr/local/lib/python3/dist-packages/:$PYTHONPATH' >> ~/.bashrc
 ```
 The use of ```-j $nproc``` will speed up the build time by allowing for processing in parallel.
