@@ -11,6 +11,6 @@ The other core elements include:
 
 At the time of writing, there exist some incorrect instructions on some of Git repo guides or associated sites - updates have been made to core code while guides have not reflected the dependancies or packages required e.g. the [Osmocom](https://osmocom.org/projects/gr-gsm/wiki/Installation) guide does not take account of python3 prerequisites, instead listing python.
 
-External sites are also listing a mixture of instructions, normally delineated by GNUradio version, 3.7 or 3.8. One of the better guides can be found at [Paladion.net](https://www.paladion.net/blogs/how-to-build-an-imsi-catcher-to-intercept-gsm-traffic).
+External sites are also listing a mixture of instructions, normally delineated by GNUradio version, 3.7 or 3.8. There was a [fork of gr-gsm hosted for GNUradio 3.8](https://github.com/velichkov/gr-gsm.git) but this is no longer required as the ptrkrysik main has now been updated. One of the better guides can be found at [Paladion.net](https://www.paladion.net/blogs/how-to-build-an-imsi-catcher-to-intercept-gsm-traffic).
 
 Please follow the below process for a working simple_IMSI-catcher.py based install on any Raspberry Pi (1, 2, 3, 4), no issues with 32-bit or 64-bit as seen with some other Linux distros e.g. Ubuntu only working on Pi 4, the same with Dragon OS with its Pi64 image.
