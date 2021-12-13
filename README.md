@@ -41,7 +41,7 @@ You will require an SDR receiver.
 You now have a functional installation of PiSDR Version 5.0, which includes GNUradio v3.8 and associated SDR tools.
 
 ### Update PiSDR
-'''
+```
 sudo apt update
 sudo apt-get update
-'''
+```
