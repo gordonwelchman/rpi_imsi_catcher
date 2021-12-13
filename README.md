@@ -44,4 +44,6 @@ You now have a functional installation of PiSDR Version 5.0, which includes GNUr
 ```
 sudo apt update
 sudo apt-get update
+
+sudo apt clean
 ```
