@@ -53,7 +53,8 @@ sudo apt-get update
 sudo apt clean
 sudo apt-get clean
 ```
-The ```sudo apt update``` command is used to download package information from all configured sources.
+The ```sudo apt update``` command is used to download package information from all configured sources. ```apt``` is a subset of ```apt-get``` and apt-cache commands providing necessary commands for package management. While ```apt-get``` is unlikely to be deprecated in the near future, as a regular user, you should start using ```apt``` more often.
+
 Optionally, you can upgrade the Raspberry Pi firmware at this stage:
 ```
 sudo rpi-update
