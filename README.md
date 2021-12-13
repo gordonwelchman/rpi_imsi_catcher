@@ -30,3 +30,8 @@ You will require an SDR receiver.
 - RTL-SDR from a reputable source (E4000 if available as it has a higher range of 2300Mhz, examples [here](https://www.amazon.com/NooElec-NESDR-Smart-XTR-SDR) and [here](https://www.amazon.com/NooElec-NESDR-XTR-Telescopic-Extended-Range)).
 - HackRF One.
 - BladeRF.
+
+
+## Setup
+### Raspberry Pi Initial Setup
+1. Download the [PiSDR Version 5.0 image](https://github.com/luigifcruz/pisdr-image/releases/tag/v5.0.0) and save it somewhere convenient. [Direct link](https://github.com/luigifcruz/pisdr-image/releases/download/v5.0.0/2020-11-13-PiSDR-vanilla.img.xz).
