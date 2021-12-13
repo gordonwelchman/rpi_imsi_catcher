@@ -136,3 +136,8 @@ or
 ```
 echo 'export PYTHONPATH=/usr/local/lib/python3/dist-packages/:$PYTHONPATH' >> ~/.bashrc
 ```
+
+### Kalibrate
+Some guides recommend the installation of Kalibrate; it is not required in this instance but can be installed at a later date for additional functionality, mainly linked to the survey and listing of frequencies and bands.
+
+### Install simple_IMSI-catcher.py script
