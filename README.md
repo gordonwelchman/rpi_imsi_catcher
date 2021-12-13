@@ -26,6 +26,6 @@ You will require a Raspberry Pi and the ability to flash images to the bootable 
 
 ## SDR Hardware
 You will require an SDR receiver.
-- RTL-SDR from a reputable source e.g.
+- RTL-SDR from a reputable source (E4000 if available).
 - HackRF One.
 - BladeRF.
