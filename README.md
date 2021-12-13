@@ -115,4 +115,6 @@ python3-scapy
 ```
 
 ### Install gr-gsm
-
+You can use the current ptrkrysik Github code, or use the clone hosted here (as detailed below) for a snapshot version that is confirmed as working on PiSDR Version 5.0:
+```
+git clone
