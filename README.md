@@ -59,4 +59,4 @@ Optionally, you can upgrade the Raspberry Pi firmware at this stage:
 ```
 sudo rpi-update
 ```
-
+### Install pre-requisitives and dependancies
