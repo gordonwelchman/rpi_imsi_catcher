@@ -113,3 +113,4 @@ python3-numpy \
 python3-scipy \
 python3-scapy
 ```
+The Raspberry Pi is now ready for the installation of the **gr-gsm** and **simple_IMSI-catcher.py** tools.
