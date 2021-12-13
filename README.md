@@ -26,6 +26,6 @@ You will require a Raspberry Pi and the ability to flash images to the bootable 
 
 ## SDR Hardware
 You will require an SDR receiver.
-- RTL-SDR from a reputable source (E4000 if available).
+- RTL-SDR from a reputable source (E4000 if available as it has a higher range of 2300Mhz, example [here](https://www.amazon.com/NooElec-NESDR-Smart-XTR-SDR) and [here](https://www.amazon.com/NooElec-NESDR-XTR-Telescopic-Extended-Range).
 - HackRF One.
 - BladeRF.
