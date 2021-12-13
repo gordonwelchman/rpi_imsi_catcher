@@ -49,7 +49,7 @@ Then update PiSDR to ensure all packages can be located and downloaded:
 ```
 sudo apt update
 sudo apt-get update
-sudo apt clean
+sudo apt autoclean
 sudo apt-get clean
 ```
 The ```sudo apt update``` command is used to download package information from all configured sources. ```apt``` is a subset of ```apt-get``` and apt-cache commands providing necessary commands for package management. While ```apt-get``` is unlikely to be deprecated in the near future, as a regular user, you should start using ```apt``` more often. Further reading [here](https://itsfoss.com/apt-vs-apt-get-difference).
@@ -117,4 +117,15 @@ python3-scapy
 ### Install gr-gsm
 You can use the current ptrkrysik Github code, or use the clone hosted here (as detailed below) for a snapshot version that is confirmed as working on PiSDR Version 5.0:
 ```
-git clone
+git clone https://github.com/gordonwelchman/gr-gsm
+
+cd gr-gsm
+mkdir build
+cd build
+cmake ..
+mkdir $HOME/.grc_gnuradio/ $HOME/.gnuradio/
+make -j 4
+sudo make install
+sudo ldconfig
+```
+The use of ```-j $nproc``` will speed up the build time by allowing for processing in parallel.
