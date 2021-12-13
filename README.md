@@ -46,4 +46,7 @@ sudo apt update
 sudo apt-get update
 
 sudo apt clean
+sudo apt-get clean
+
+sudo rpi-update
 ```
