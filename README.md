@@ -46,13 +46,15 @@ Open a terminal using the command Ctrl+Alt+T. Change to super user using the com
 ```
 sudo su
 ```
-
+Then update PiSDR:
 ```
 sudo apt update
 sudo apt-get update
-
 sudo apt clean
 sudo apt-get clean
-
+```
+Optionally, you can upgrade the Raspberry Pi firmware at this stage:
+```
 sudo rpi-update
 ```
+
