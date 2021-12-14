@@ -170,3 +170,13 @@ Personal data collected by the device (IMSI) may be subject to privacy laws, so 
 
 In July 2015, David Davis MP submitted a written question to the Home Office asking:
 >under what statute and what warranty system the use of IMSI catchers is permitted to intercept communications and communications data.
+
+In reply, Home Office Minister Mike Penning said:
+
+>The Wireless Telegraphy Act 2006 makes it an offence for a person to interfere with wireless telegraphy or to use wireless telegraphy with intent to obtain information as to the contents, sender or addressee of a message of which neither he nor a person on whose behalf he is acting is an intended recipient, without lawful authority.
+>
+>Investigative activity involving interference with property or wireless telegraphy is regulated by the Police Act 1997 and the Intelligence Services Act 1994 which sets out the high level of authorisation required before the police or security and intelligence agencies can undertake such activity. Use of these powers is overseen by the Intelligence Services Commissioner and the Office of Surveillance Commissioners.
+>
+>Interception of communications in the course of their transmission is governed by the Regulation of Investigatory Powers Act 2000.
+
+The Investigatory Powers Bill was intended to make surveillance law accessible. It is still unclear though how IMSI Catchers are covered in the Bill. The definition of Equipment Interference - commonly referred to as 'hacking' - in the Bill has been said to be broad enough to include IMSI Catchers which are not strictly speaking equipment for hacking 
