@@ -18,6 +18,10 @@ Two of the better guides can be found at [Paladion.net](https://www.paladion.net
 
 Please follow the below process for a working simple_IMSI-catcher.py based install on any Raspberry Pi (1, 2, 3, 4), no issues with 32-bit or 64-bit as seen with some other Linux distros e.g. Ubuntu only working on Pi 4, the same with Dragon OS with its Pi64 image.
 
+## Research
+
+I strongly advise reading up on the GSM - the system, and its associated protocols. There is a digestible introduction available on [Harrison's Sandbox](https://harrisonsand.com/posts/gsm-security) that is directly relevant to this Github.
+
 ## What you will require
 You will require a Raspberry Pi and the ability to flash images to the bootable media.
 - A Raspberry Pi, ideally a Pi Zero 2, Pi 4, or Pi CM4.
