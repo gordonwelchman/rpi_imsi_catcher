@@ -166,7 +166,11 @@ If you know the frequency you want to monitor, you can run the command ```grgsm_
 
 ## Legality
 
-Personal data collected by the device (IMSI) may be subject to privacy laws, so be mindful of storing/processing/sharing data collected. Do your own research.
+Do your own research. No liability implied or accepted.
+
+See the [Open Rights Group](https://wiki.openrightsgroup.org/wiki/IMSI_Catcher) for a slightly nuanced view of the unclear legislation in the United Kingdom.
+
+Personal data collected by the device (IMSI) may be subject to privacy laws, so be mindful of storing/processing/sharing data collected.
 
 In July 2015, David Davis MP submitted a written question to the Home Office asking:
 >under what statute and what warranty system the use of IMSI catchers is permitted to intercept communications and communications data.
