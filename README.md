@@ -14,7 +14,7 @@ At the time of writing, there exist some incorrect instructions on some of Git r
 
 External sites are also listing a mixture of instructions, normally delineated by GNUradio version, 3.7 or 3.8. There was a [fork of gr-gsm hosted for GNUradio 3.8](https://github.com/velichkov/gr-gsm.git) but this is no longer required as the ptrkrysik main has now been updated.
 
-Two of the better guides can be found at [Paladion.net](https://www.paladion.net/blogs/how-to-build-an-imsi-catcher-to-intercept-gsm-traffic) and [Harrison's Sandox](https://harrisonsand.com/posts/imsi-catcher). This compliments a detailed write up by the Electronic Frontier Foundation (EFF), available on [this link](https://www.eff.org/wp/gotta-catch-em-all-understanding-how-imsi-catchers-exploit-cell-networks).
+Two of the better guides can be found at [Paladion.net](https://www.paladion.net/blogs/how-to-build-an-imsi-catcher-to-intercept-gsm-traffic) and [Harrison's Sandox](https://harrisonsand.com/posts/imsi-catcher). More exotic attack methodologies are covered [here](https://www.hindawi.com/journals/scn/2019/7425235). These guides compliment a detailed write up by the Electronic Frontier Foundation (EFF), available on [this link](https://www.eff.org/wp/gotta-catch-em-all-understanding-how-imsi-catchers-exploit-cell-networks).
 
 Please follow the below process for a working simple_IMSI-catcher.py based install on any Raspberry Pi (1, 2, 3, 4), no issues with 32-bit or 64-bit as seen with some other Linux distros e.g. Ubuntu only working on Pi 4, the same with Dragon OS with its Pi64 image.
 
@@ -163,3 +163,7 @@ If you run the ```ls``` command in a super user command line interface you shoul
 You can scan for frequencies using the ```grgsm_scanner -v -b GSM900``` command. This will produce a list of frequencies and base station properties, such as: center frequency, channel, ARFCN value, LAC, MCC, MNC value etc. To check all available options, run help ```grgsm_scanner -h```. THe bands are: GSM900, DCS1800, GSM850, PCS1900, GSM450, GSM480,GSM-R.
 
 If you know the frequency you want to monitor, you can run the command ```grgsm_livemon -f 946.6M```, replacing 946.6 with the known frequency. This negates the requirement for manual tuning. Kalibrate is another option.
+
+## Legal
+
+Personal data collected by the device (IMSI) may be subject to privacy laws, so be mindful of storing/processing/sharing data collected. Do your own research.
