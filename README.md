@@ -31,7 +31,7 @@ You will require an SDR receiver.
 - HackRF One.
 - BladeRF.
 
-![RTL-SDR Hardware](https://github.com/gordonwelchman/rpi_imsi_catcher/main/assets/RTL-SDR.jpg)
+![RTL-SDR Hardware](https://github.com/gordonwelchman/rpi_imsi_catcher/blob/main/assets/RTL-SDR.jpg)
 
 ## Setup
 ### Raspberry Pi Initial Setup
