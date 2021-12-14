@@ -24,7 +24,7 @@ I strongly advise reading up on the GSM - the system, and its associated protoco
 
 ## What you will require
 You will require a Raspberry Pi and the ability to flash images to the bootable media.
-- A Raspberry Pi, ideally a Pi Zero 2, Pi 4, or Pi CM4.
+- A Raspberry Pi, ideally a Pi Zero 4, or Pi CM4 (although it will work with lower power models, as the PiSDR image is 32-bit).
 - A high wuality Pi power supply - 5V, 3A (official supply recommended).
 - An SD-card, ideally a Class 10 from a reputable brand (SanDisk, Samsung, Lexar, SwissBit).
 - Etcher or Rufus for copying an .ISO to the SD-card.
