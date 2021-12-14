@@ -179,4 +179,4 @@ In reply, Home Office Minister Mike Penning said:
 >
 >Interception of communications in the course of their transmission is governed by the Regulation of Investigatory Powers Act 2000.
 
-The Investigatory Powers Bill was intended to make surveillance law accessible. It is still unclear though how IMSI Catchers are covered in the Bill. The definition of Equipment Interference - commonly referred to as 'hacking' - in the Bill has been said to be broad enough to include IMSI Catchers which are not strictly speaking equipment for hacking 
+The [Investigatory Powers Bill](https://wiki.openrightsgroup.org/wiki/Investigatory_Powers_Bill) was intended to make surveillance law accessible. It is still unclear though how IMSI Catchers are covered in the Bill. The definition of Equipment Interference - commonly referred to as 'hacking' - in the Bill has been said to be broad enough to include IMSI Catchers which are not strictly speaking equipment for hacking 
