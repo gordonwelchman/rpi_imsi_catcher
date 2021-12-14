@@ -164,6 +164,9 @@ You can scan for frequencies using the ```grgsm_scanner -v -b GSM900``` command.
 
 If you know the frequency you want to monitor, you can run the command ```grgsm_livemon -f 946.6M```, replacing 946.6 with the known frequency. This negates the requirement for manual tuning. Kalibrate is another option.
 
-## Legal
+## Legality
 
 Personal data collected by the device (IMSI) may be subject to privacy laws, so be mindful of storing/processing/sharing data collected. Do your own research.
+
+In July 2015, David Davis MP submitted a written question to the Home Office asking:
+>under what statute and what warranty system the use of IMSI catchers is permitted to intercept communications and communications data.
