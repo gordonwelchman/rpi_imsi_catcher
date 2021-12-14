@@ -158,4 +158,4 @@ If you run the ```ls``` command in a super user command line interface you shoul
 
 You can scan for frequencies using the ```grgsm_scanner -v -b GSM900``` command. This will produce a list of frequencies and base station properties, such as: center frequency, channel, ARFCN value, LAC, MCC, MNC value etc. To check all available options, run help ```grgsm_scanner -h```. THe bands are: GSM900, DCS1800, GSM850, PCS1900, GSM450, GSM480,GSM-R.
 
-If you know the frequency you want to monitor, you can run the command ```grgsm_livemon -f 946.6M```, as an example. This replaces the requirement for manual tuning.
+If you know the frequency you want to monitor, you can run the command ```grgsm_livemon -f 946.6M```, replacing 946.6 with the known frequency. This negates the requirement for manual tuning. Kalibrate is another option.
