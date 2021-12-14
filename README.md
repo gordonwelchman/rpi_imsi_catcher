@@ -146,8 +146,8 @@ You can use the current Oros42 Github code, or use the clone hosted here (as det
 git clone https://github.com/gordonwelchman/IMSI-catcher
 ```
 
-## Usage
-If you run the ```ls``` command in a super user command line interface you should see a folder called *IMSI-catcher*. This is the Git pull folder containing the *simple_IMSI-catcher.py* script required to show IMSI and TMSI data, among other fields. The process to run the script is as follows:
+## Use of simple_IMSI-catcher.py script
+If you run the ```ls``` command in a super user command line interface you should see a folder called *IMSI-catcher*. This is the Git pull folder containing the *simple_IMSI-catcher.py* script. Once run, it should reveal IMSI, TMSI, Country, Brand, Operator, MCC, MNC, LAC, and CellID. The process to run the script is as follows:
 
 1. Navigate into the *IMSI-catcher* folder using the command ```cd IMSI-catcher```
 2. Run the command ```sudo python3 simple_IMSI-catcher.py -s```
