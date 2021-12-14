@@ -25,6 +25,8 @@ You will require a Raspberry Pi and the ability to flash images to the bootable 
 - An SD-card, ideally a Class 10 from a reputable brand (SanDisk, Samsung, Lexar, SwissBit).
 - Etcher or Rufus for copying an .ISO to the SD-card.
 
+![Raspberry Pi 4](https://github.com/gordonwelchman/rpi_imsi_catcher/blob/main/assets/raspberry-pi-4.png)
+
 ## SDR Hardware
 You will require an SDR receiver.
 - RTL-SDR from a reputable source (E4000 if available as it has a higher range of 2300Mhz, examples [here](https://www.amazon.com/NooElec-NESDR-Smart-XTR-SDR) and [here](https://www.amazon.com/NooElec-NESDR-XTR-Telescopic-Extended-Range)).
