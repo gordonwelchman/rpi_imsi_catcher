@@ -141,3 +141,12 @@ echo 'export PYTHONPATH=/usr/local/lib/python3/dist-packages/:$PYTHONPATH' >> ~/
 Some guides recommend the installation of Kalibrate; it is not required in this instance but can be installed at a later date for additional functionality, mainly linked to the survey and listing of frequencies and bands.
 
 ### Install simple_IMSI-catcher.py script
+You can use the current Oros42 Github code, or use the clone hosted here (as detailed below) for a snapshot version that is confirmed as working on PiSDR Version 5.0:
+```
+git clone https://github.com/gordonwelchman/IMSI-catcher
+```
+
+## Usage
+If you run the ```ls``` command in a super user command line interface you should see a folder called *IMSI-catcher*. This is the Git pull folder containing the *simple_IMSI-catcher.py* script required to show IMSI and TMSI data, among other fields. The process to run the script is as follows:
+
+1. Navigate into the *IMSI-catcher* folder using the command ```cd IMSI-catcher```.
