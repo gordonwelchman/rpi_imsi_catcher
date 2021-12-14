@@ -31,6 +31,8 @@ You will require an SDR receiver.
 - HackRF One.
 - BladeRF.
 
+![RTL-SDR Hardware](https://github.com/gordonwelchman/rpi_imsi_catcher/main/assets/RTL-SDR.jpg)
+
 ## Setup
 ### Raspberry Pi Initial Setup
 1. Download the [PiSDR Version 5.0 image](https://github.com/luigifcruz/pisdr-image/releases/tag/v5.0.0) and save it somewhere convenient. [Direct link](https://github.com/luigifcruz/pisdr-image/releases/download/v5.0.0/2020-11-13-PiSDR-vanilla.img.xz).
