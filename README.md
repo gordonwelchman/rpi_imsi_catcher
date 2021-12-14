@@ -35,7 +35,7 @@ You will require an SDR receiver.
 
 ![RTL-SDR Hardware](https://github.com/gordonwelchman/rpi_imsi_catcher/blob/main/assets/RTL-SDR.jpg)
 
-![RTL-SDR Block Diagram](https://github.com/gordonwelchman/rpi_imsi_catcher/blob/main/assets/SDR-block-diagram.jpg)
+![RTL-SDR Block Diagram](https://github.com/gordonwelchman/rpi_imsi_catcher/blob/main/assets/SDR-block.jpg)
 
 ## Setup
 ### Raspberry Pi Initial Setup
