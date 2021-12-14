@@ -149,4 +149,11 @@ git clone https://github.com/gordonwelchman/IMSI-catcher
 ## Usage
 If you run the ```ls``` command in a super user command line interface you should see a folder called *IMSI-catcher*. This is the Git pull folder containing the *simple_IMSI-catcher.py* script required to show IMSI and TMSI data, among other fields. The process to run the script is as follows:
 
-1. Navigate into the *IMSI-catcher* folder using the command ```cd IMSI-catcher```.
+1. Navigate into the *IMSI-catcher* folder using the command ```cd IMSI-catcher```
+2. Run the command ```sudo python3 simple_IMSI-catcher.py -s```
+3. Open a second command line interface using Ctrl+Alt+T.
+4. Run the command ```grgsm_livemon```
+5. A graphical user interface will appear showing the current frequency. This needs to be adjusted (tuned) until data is received.
+6. Decoded IMSI and TMSI data should begin to populate in the first command line interface.
+
+You can scan for frequencies using the ```grgsm_scanner -v -b GSM900``` command. This will produce a list of frequencies and base station properties, such as: center frequency, channel, ARFCN value, LAC, MCC, MNC value etc. To check all available options, run help ```grgsm_scanner -h```. THe bands are: GSM900, DCS1800, GSM850, PCS1900, GSM450, GSM480,GSM-R.
