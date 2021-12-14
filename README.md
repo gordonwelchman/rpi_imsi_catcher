@@ -102,7 +102,7 @@ build-essential \
 automake \
 librtlsdr-dev \
 libfftw3-dev \
-gqrx \
+gqrx-sdr \
 wireshark \
 tshark
 ```
